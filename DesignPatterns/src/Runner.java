@@ -8,6 +8,8 @@ public class Runner {
 				            new Word("architecture"), new Sign('!'));
 		
 		txt.print(new PrinterDefault());
+		
+		txt.print(new PrinterSpecial());
 	}
 
 }
