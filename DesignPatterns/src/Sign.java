@@ -8,7 +8,7 @@ public class Sign implements IPrintable {
 	}
 	
 	public void print(IPrinter printer) {
-		printer.printStringData(String.valueOf(ch));
+		printer.printString(ch+"");
 	}
 
 }

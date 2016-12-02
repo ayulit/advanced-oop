@@ -8,7 +8,7 @@ public class Word implements IPrintable {
 	}
 
 	public void print(IPrinter printer) {
-		printer.printStringData(str);
+		printer.printString(str);
 	}
 
 }

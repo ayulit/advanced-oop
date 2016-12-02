@@ -8,9 +8,13 @@ public class Text implements IPrintable {
 	}
 	
 	public void print(IPrinter printer) {
+		
 		for (int i = 0; i < txt.length; i++) {
-			txt[i].print(printer);
+			printer.printPrintable(txt[i]);;
 		}
+		
+		
+		
 	}
 
 }

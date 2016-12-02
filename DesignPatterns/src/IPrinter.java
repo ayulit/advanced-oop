@@ -1,6 +1,7 @@
 
 public interface IPrinter {
-
-	void printStringData(String data);
+	
+	void printPrintable(IPrintable p);
+	void printString(String data);
 
 }
